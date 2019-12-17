@@ -1,0 +1,42 @@
+{
+  "name": "tagged-console",
+  "version": "0.0.1-alpha1",
+  "description": "Simple no-dependency console logger that prefixes all logs with given tag.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel --out-dir=./dist --ignore **/*.spec.js --config-file ./.babelrc src/*",
+    "test": "jest",
+    "cover": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sznowicki/tagged-console.git"
+  },
+  "keywords": [
+    "logger",
+    "console",
+    "tagged",
+    "console",
+    "tagged",
+    "logger"
+  ],
+  "author": "Szymon Nowicki <sznowicki@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sznowicki/tagged-console/issues"
+  },
+  "homepage": "https://github.com/sznowicki/tagged-console#readme",
+  "browserslist": [
+    "last 4 versions",
+    "> 1%",
+    "not dead",
+    "IE 11",
+    "maintained node versions"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.7.1",
+    "jest": "^24.9.0"
+  }
+}
