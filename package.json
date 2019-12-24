@@ -1,6 +1,6 @@
 {
   "name": "tagged-console",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0",
   "description": "Simple no-dependency console logger that prefixes all logs with given tag.",
   "main": "dist/index.js",
   "module": "src/index.js",
