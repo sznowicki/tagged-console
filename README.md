@@ -22,4 +22,7 @@ Currently it offers following methods:
 - dispatchLog(method, msg, ...args) (which evaluates to console[method](taggedMessage, ...rest))
 
 ## Status
-This module is still under construction. Please do not use it on production. Version 1.0.0 will follow shortly.
+This module is production ready.
+
+## Contributing
+Any contribution is appreciated! Feel free to join this project on [GitHub](https://github.com/sznowicki/tagged-console)
